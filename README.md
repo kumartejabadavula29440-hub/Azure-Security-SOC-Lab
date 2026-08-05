@@ -16,7 +16,22 @@ The objective of this project was to build an enterprise-style Azure infrastruct
 Although the Azure trial has expired, this repository preserves the deployment process, screenshots, architecture, configuration steps, and lessons learned throughout the lab.
 
 ---
+Azure Security SOC Lab
 
+          Internet
+              │
+        Azure Resource Group
+              │
+        Azure Virtual Network
+       ┌────────┼────────┐
+       │        │        │
+   App Subnet DB Subnet Mgmt Subnet
+       │        │        │
+ Windows VM  Storage  Azure Monitor
+                     │
+               Log Analytics
+                     │
+             Microsoft Sentinel
 # Project Objectives
 
 - Build Azure infrastructure from scratch
@@ -58,6 +73,18 @@ Although the Azure trial has expired, this repository preserves the deployment p
 - Log Analytics Workspace
 
 ---
+# Skills Demonstrated
+
+- Azure Administration
+- Azure Networking
+- Cloud Infrastructure
+- Virtual Machines
+- Storage
+- Azure Monitor
+- Log Analytics
+- Cloud Security
+- Microsoft Sentinel Preparation
+-----
 
 # Deployment Workflow
 
@@ -139,35 +166,6 @@ Used for:
 Prepared Log Analytics Workspace for centralized log collection and future Microsoft Sentinel integration.
 
 ---
-
-# Skills Demonstrated
-
-- Azure Administration
-- Azure Networking
-- Cloud Infrastructure
-- Virtual Machines
-- Storage
-- Azure Monitor
-- Log Analytics
-- Cloud Security
-- Microsoft Sentinel Preparation
-
----
-
-# Repository Contents
-
-```
-Azure-Security-SOC-Lab
-
-README.md
-
-AZURE INFRASTRUCTURE SETUP.docx
-
-AZURE-CLOUD.docx
-```
-
----
-
 # Lessons Learned
 
 - Azure Resource Management
