@@ -16,22 +16,14 @@ The objective of this project was to build an enterprise-style Azure infrastruct
 Although the Azure trial has expired, this repository preserves the deployment process, screenshots, architecture, configuration steps, and lessons learned throughout the lab.
 
 ---
-Azure Security SOC Lab
+## Azure Security SOC Lab Architecture
 
-          Internet
-              │
-        Azure Resource Group
-              │
-        Azure Virtual Network
-       ┌────────┼────────┐
-       │        │        │
-   App Subnet DB Subnet Mgmt Subnet
-       │        │        │
- Windows VM  Storage  Azure Monitor
-                     │
-               Log Analytics
-                     │
-             Microsoft Sentinel
+> Enterprise Azure Security SOC Lab architecture.
+
+![Azure Security SOC Lab Architecture](images/architecture-diagram.png)
+
+---
+
 # Project Objectives
 
 - Build Azure infrastructure from scratch
